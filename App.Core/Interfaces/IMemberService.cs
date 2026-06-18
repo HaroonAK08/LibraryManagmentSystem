@@ -11,6 +11,8 @@ namespace App.Core.Interfaces
         void UpdateMember(Member member);
         void DeleteMember(string id);
         List<Member> GetAllMembers();
+        Member? GetMemberById(string id);
+        List<Member> SearchMembers(string keyword);
 
     }
 }
